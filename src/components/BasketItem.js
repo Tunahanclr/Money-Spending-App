@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export default function BasketItem({item,product}) {
+export default function BasketItem({ item, product }) {
   return (
-	<>
-			<li className="basket-item">
-				{product.title} <span>x {item.amount}</span>
-			</li>     
-		</>
-    
-  )
+    <>
+      <li className="basket-item">
+        {product.title} <span>x {item.amount}</span>
+      </li>
+    </>
+  );
 }
